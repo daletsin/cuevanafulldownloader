@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Cuevana Full Downloader</title>
+    <style>
+        body {
+            padding: 10px;
+        }
+
+        #save {
+            height: 32px;
+            font-weight: 600;
+        }
+
+        #code {
+            width: 90%;
+            margin: 0 auto;
+            border: 1px solid gray;
+        }
+
+        .codecontent{
+            padding-bottom:20px;
+        }
+
+        #status {
+            color: green;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <p class='titulo'> No encuentra su archivo? Puede que sea de diferente tipo. Coloque aqui el formato de archivo que desea descargar (por ej: "jpg" para descargar todas las imagenes con formato jpg) </p>
+    <div class="codecontent">
+        <input type="text" id="code" placeholder="Tipo de archivo" />
+    </div>
+    <div id="status"></div>
+    <input type='submit' name='save' id='save' value='GUARDAR'>
+
+    <script src="options.js"></script>
+</body>
+</html>

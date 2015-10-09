@@ -1,0 +1,41 @@
+﻿body {
+    background-color:#e9e9e9;
+    min-width: 200px;
+}
+
+a:link{
+    text-decoration:none;
+}
+
+a{
+    padding:3px;
+    color:white;
+}
+
+a.video{
+    background-color: #244860;
+}
+
+a.personalizado{
+    background-color: #0094ff;
+}
+
+a.sub{
+    background-color: #0EAAD6;
+
+}
+
+.etiqueta{
+    padding-left:5px;
+}
+
+.social{
+    background-color: #244872;
+}
+
+.opcion{
+    background-color: #0094ff;
+    margin-right:0;
+}
+
+

@@ -1,0 +1,29 @@
+{   "description": "Descarga videos y subtitulos de cuevana2.tv, facebook, vimeo y cualquier sitio similar a estos",
+    "homepage_url": "http://danielarriola.com/cuevanadownloader",
+    "icons": {
+        "128": "icon128.png",
+        "16": "icon16.png",
+        "48": "icon48.png"
+    },
+  "browser_action": {
+    "default_icon": {
+      "19": "icon16.png"
+    },
+    "default_title": "Cuevana Full Downloader",
+    "default_popup": "popup.html"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },   
+   "manifest_version": 2,
+   "name": "Cuevana Full Downloader",
+   "permissions": [ "tabs", "webRequest", "<all_urls>", "storage"],
+
+   "background": {
+    "scripts": ["index.js"],
+    "persistent": true
+  },
+  
+   "version": "1.15"
+}
